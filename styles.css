@@ -1,0 +1,138 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#logo {
+    height: 50px;
+    margin: 0 10px;
+}
+
+.headerlogo {
+    position: fixed;
+    min-height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: black;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    margin: 0 20px;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display:inline-flex;
+    text-decoration: underline;
+    margin: 0 12px;
+}
+
+h2 {
+    margin: 5px auto;
+}
+
+h4 {
+    margin: 15px auto;
+}
+
+.mission {
+    background-image: url(img-mission-background.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.missiontext {
+    height:min-content;
+    background-color: black;
+    margin: 150px 0;
+    width: 1200px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+div.teaMonth {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.teaMonth h2 {
+    margin-bottom: 10px;
+}
+
+.teaMonth h4 {
+    margin: 0 auto;
+}
+
+.specials div {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 320px;
+}
+
+.specials img {
+    height: 200px;
+    width: 300px;
+}
+
+.locations {
+    background-image: url(img-locations-background.jpg);
+    background-position: bottom;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.locations h2 {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+div.locationitem {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.locationitem div {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 5px 20px;
+    opacity: 1;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.locationitem p {
+    flex: 0 0 100%;
+}
+
+div.contact {
+    height: 200px;
+}
+
+footer {
+    margin-left: 20px;
+    text-align: left;
+}
